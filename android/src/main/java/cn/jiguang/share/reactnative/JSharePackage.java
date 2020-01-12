@@ -12,10 +12,10 @@ import java.util.List;
 
 public class JSharePackage implements ReactPackage {
 
-    public JSharePackage(boolean toastFlag, boolean logFlag) {
-        Logger.SHUTDOWNTOAST = toastFlag;
-        Logger.SHUTDOWNLOG = logFlag;
-    }
+    // public JSharePackage(boolean toastFlag, boolean logFlag) {
+    //     Logger.SHUTDOWNTOAST = toastFlag;
+    //     Logger.SHUTDOWNLOG = logFlag;
+    // }
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
